@@ -1,0 +1,111 @@
+
+body {
+    background: linear-gradient(to bottom, #1c1b3dca 0%, #37346bca 40%), url(Images/jared-arango-1-mh6U3qeGQ-unsplash.png);
+    background-size:100% 200%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Noto Sans Bengali", "SolaimanLipi", "Kalpurush", "Siyam Rupali", sans-serif;
+     -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+}
+
+img[alt="Hero Logo"] {
+    width:30vw;
+    height: auto;
+    margin-left: 30px;
+    
+}
+.one {
+    margin-right:30px;
+}
+
+.text h1{
+    font-size: clamp(1.5rem, 6vw, 3.5rem);
+    font-weight: 900;
+    line-height: 1.2;
+    color: aliceblue;
+}
+.text p {
+    
+    color:aliceblue;
+    margin-top: -30px;
+    font-weight: 400;
+    font-size: clamp(1rem, 1.25vw, 2.2rem);
+    
+}
+
+button{
+    font-size:  clamp(0.8rem, 2vw, 1.2rem);
+    width: clamp(150px, 20vw, 220px);
+    height: clamp(2.2rem, 5vw, 3.5rem);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.d1 {
+    color:#6f4bf2;
+    border: 2px solid #6f4bf2;
+    transition: all 0.3s ease;
+}
+.d1 i{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+.d1:hover{
+    background-color: transparent;
+    color: aliceblue;
+    border-color: aliceblue;
+}
+.d2{
+    background-color: #6f4bf2;
+    color: aliceblue;
+    border: none;
+   
+}
+.d2:hover{
+    border:2px solid aliceblue;
+}
+.Contact{
+    color:#FFCC23;
+    margin-left: 4px;
+    margin-top: 20px;
+}
+.links {
+  display: flex;
+  flex-direction: column; /* stack icon-text pairs vertically */
+  align-items: flex-start; /* align to the left, or center if preferred */
+  gap: 1rem;
+  margin-top: 10px;
+  margin-left:4px ;
+}
+
+ .links a {
+  display: flex;
+  align-items: center; 
+  gap: 0.5rem; 
+  text-decoration: none;
+  color:aliceblue;
+  transition: text-decoration-color 0.3s ease, color 0.3s ease;
+}
+
+.links p {
+  margin: 0;
+  font-size: 1rem;
+  color: aliceblue;
+} 
+.links img {
+    min-width: 24px;
+    max-width: 42px;
+    height: auto;
+    display: inline;
+}
+.links a:hover{
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+}
